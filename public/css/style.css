@@ -1,0 +1,19 @@
+#table{
+    display: none;
+}
+
+.btn-primary {
+    margin-left: 45%;
+    margin-bottom: 1%;
+}
+
+.jumbotron{
+    text-align: center
+}
+.form-control{
+    margin-left: 25%;
+    text-align: center;
+}
+label {
+    margin-left: 25%;
+}
