@@ -11,9 +11,7 @@ $("#form").on('submit', event => {
         },
         body: JSON.stringify({
             in: form.elements.in.value,
-            lunchIn: form.elements.lunchIn.value,
-            lunchOut: form.elements.lunchOut.value,
-            out: form.elements.out.value
+            month: parseInt($("#month-select").val())
         })
     }).then(response => {
         if (!response.ok) {
